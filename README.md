@@ -1,9 +1,32 @@
-# Express
+# Proyecto MoonBot
 
-Express is a music and moderation bot with simple commands and made in discord.js
+## Instalación
 
-## Own instance
+```
+npm i
+```
 
-Heroku offers you the possibility to host your own instance of the Discord bot, you only need a brain and some requirements for the bot to work.
+## Configuración
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItzLightyHD/Express/tree/classic)
+Crear el archivo `.env` dentro del directorio `src` que contenga los siguientes datos:
+
+```
+TOKEN=
+PREFIX=
+OWNERID=
+```
+
+Rellenar la información faltante después del `=`, ejemplo:
+
+```
+TOKEN=PegaElTokenAqui
+PREFIX=m!
+OWNERID=280985817097306113
+```
+
+## Ejecución
+
+```
+cd src
+node index.js
+```

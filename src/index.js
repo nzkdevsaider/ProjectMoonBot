@@ -1,5 +1,5 @@
-const ExpressClient = require('./Structures/ExpressClient.js');
-const config = require('../config');
+const MoonClient = require('./Structures/MoonClient.js');
+const config = require('../config.js');
 
-const client = new ExpressClient(config);
+const client = new MoonClient(config);
 client.start();
